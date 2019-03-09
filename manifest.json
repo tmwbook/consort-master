@@ -1,0 +1,16 @@
+{
+    "name": "Consort Master",
+    "version": "0.1",
+    "description": "Subsitute the facebook messenger notification sound",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "https://static.xx.fbcdn.net/rsrc.php/*"
+    ],
+    "background": {
+        "scripts": [
+            "extension.js"
+        ]
+    },
+    "manifest_version": 2
+    }
